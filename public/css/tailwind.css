@@ -480,14 +480,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
-.m-4 {
-  margin: 24px;
-}
-
-.m-5 {
-  margin: 32px;
-}
-
 .mr-4 {
   margin-right: 24px;
 }
@@ -622,10 +614,6 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: none;
 }
 
-.p-5 {
-  padding: 32px;
-}
-
 .p-2 {
   padding: 12px;
 }
@@ -634,20 +622,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 16px;
 }
 
-.p-6 {
-  padding: 48px;
-}
-
 .p-4 {
   padding: 24px;
 }
 
-.p-7 {
-  padding: 90px;
+.p-6 {
+  padding: 48px;
 }
 
-.p-18 {
-  padding: 170px;
+.p-5 {
+  padding: 32px;
 }
 
 .px-3 {
@@ -658,6 +642,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-2 {
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.pt-5 {
+  padding-top: 32px;
+}
+
+.pt-3 {
+  padding-top: 16px;
 }
 
 .pt-18 {
@@ -674,6 +666,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-3xl {
   font-size: 1.875rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
 }
 
 .text-4xl {
@@ -847,7 +843,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gallery .gallery1{
   height:100% ;
   width: 100%;
-  flex-shrink: 0;
   -o-object-fit: cover;
      object-fit: cover;
   position: -webkit-sticky;
@@ -965,8 +960,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-items: center;
   }
 
+  .lg\:p-5 {
+    padding: 32px;
+  }
+
+  .lg\:p-6 {
+    padding: 48px;
+  }
+
   .lg\:p-0 {
     padding: 0px;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
   }
 
   .lg\:pt-7 {

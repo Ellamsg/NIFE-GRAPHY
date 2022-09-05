@@ -42,17 +42,18 @@
     transform: translateY(150px);
     opacity: 0;
     transition: all 2s ease;
+   
   }
  
   .reveal.active{
     transform: translateY(0px);
     opacity: 1;
   }
+  
 .image-bg{
  background-size: cover;
  background-position: center;
 } 
-
 
 .gallery{
     height: 100vh;
@@ -70,7 +71,7 @@
    .gallery .gallery1{
        height:100% ;
        width: 100%;
-       flex-shrink: 0;
+      
        object-fit: cover;
        position: sticky;
        top: 0;
