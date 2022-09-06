@@ -37,18 +37,7 @@
     }
 }
 
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: all 2s ease;
-   
-  }
- 
-  .reveal.active{
-    transform: translateY(0px);
-    opacity: 1;
-  }
+
   
 .image-bg{
  background-size: cover;
@@ -57,7 +46,7 @@
 
 .gallery{
     height: 100vh;
-    width: 100%;
+    width:100%;
     display: flex;
     flex-direction: column;
     overflow: auto;
@@ -67,13 +56,28 @@
     top: 0;
     bottom: 0;
     right: 0;
+    overflow-x: hidden;
    }
    .gallery .gallery1{
        height:100% ;
        width: 100%;
-      
        object-fit: cover;
        position: sticky;
        top: 0;
        z-index: -10;
    }
+
+   
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 2s ease-in forwards;
+  }
