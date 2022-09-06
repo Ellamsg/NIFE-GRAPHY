@@ -12,7 +12,7 @@ $(document).ready(function () {
 });
 
 
-//scroll on reveal animation
+/*
 window.addEventListener('scroll', reveal);
 
 function reveal() {
@@ -31,3 +31,4 @@ function reveal() {
     }
   }
 }
+*/
