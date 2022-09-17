@@ -514,6 +514,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .mr-4 {
   margin-right: 24px;
 }
@@ -614,6 +618,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-3 {
   gap: 16px;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .scroll-smooth {
@@ -724,6 +736,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-green {
+  --tw-text-opacity: 1;
+  color: rgb(19 206 102 / var(--tw-text-opacity));
+}
+
+.text-transparent {
+  color: transparent;
 }
 
 .underline {
@@ -840,14 +861,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width:100%;
   display: flex;
   flex-direction: column;
-  overflow: auto;
-  scroll-behavior: smooth;
-  position: relative;
   left: 0;
   top: 0;
   bottom: 0;
   right: 0;
-  overflow-x: hidden;
 }
 
 .gallery .gallery1{
@@ -1051,10 +1068,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     text-align: right;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
-  }
-
   .lg\:text-8xl {
     font-size: 7rem;
   }
@@ -1063,3 +1076,5 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 1.875rem;
   }
 }
+
+

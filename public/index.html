@@ -16,12 +16,10 @@
 </head>
 
 <body class="bg-black  text-white w-full">
-  <div class="gallery ">
-
+  <div class="gallery overflow-x-hidden relative scroll-smooth overflow-auto">
   <div style=" background-image:url(page/girlonafro.jpeg);" class="image-bg object-none">
     <nav id="home" class="flex header items-center lg:p-6 flex-wrap">
       <a href="#" class="p-2 mr-4 link inline-flex items-center">
-
         <span class="text-3xl  yup  font-bold uppercase tracking-wide">NIFEMI</span>
       </a>
       <button
@@ -72,7 +70,7 @@
           <P class=""> freelance</P>
         </div>
       </div>
-      <p class="lg:text-right text-center mt-18 underline ">SEE MY WORKS</p>
+      <p class="lg:text-right text-center mt-18 underline "><a href="gal.html">SEE MY WORKS</a></p>
 
 
     </main>
@@ -101,11 +99,11 @@
       <h1 class=" text-5xl font-bold md:text-8xl js-show-on-scroll">EXPERIENCE</h1>
     </div>
 
-    <div class="relative image1 lg:row-span-3 md:row-span-2 ... ">
+    <div class="relative image1 section_counter lg:row-span-3 md:row-span-2 ... ">
       <img class="lg:h-full object-cover h-16 md:h-full w-full " src="page/pink.jpg">
       <!--flex container for the text--> 
-      <div class=" flex flex-shrink bg-black w-full absolute bottom-0">
-        <h1 class="text-7xl md:text-right lg:text-left hover:text-red font-bold cursor-pointer">01</h1>
+      <div class="counter-item flex flex-shrink bg-black w-full absolute bottom-0">
+        <h1 data-target="56" class="text-7xl md:text-right lg:text-left counter hover:text-red font-bold cursor-pointer">01</h1>
          <div class="p-5 pl-2 js-show-on-scroll">
           <h1 class="font-bold">MAN & PINK</h1>
           <p>2021.
@@ -205,7 +203,7 @@
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="index.js"></script>
-
+ 
 
 </body>
 
