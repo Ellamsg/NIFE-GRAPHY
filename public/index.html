@@ -81,8 +81,7 @@
 
         <div  class="grid justify-center text-center relative  p-5 ">
           <img id="style" class="w-20  hover:animate-spin " src="page/rotate.PNG">
-          <button class=" " id="click"><a href="gal.html">LIVE WORK</a></button>
-          <a href="gal.html" class=" absolute text-xs top-7 z-10 left-0 right-0  link2 ">LIVE DEMO</a>
+          <a href="works.html" class=" absolute text-xs top-7 z-10 left-0 right-0  link2 ">LIVE DEMO</a>
       </div>
     </main>
 
@@ -208,37 +207,8 @@
 
 
 </div>
-<script>
-  
-const link2 = document.querySelector(".link2");
-const transition = document.querySelector(".transition");
-link2.addEventListener("click", (e) => {
-  e.preventDefault();
-  transition.classList.add("slide");
-  setTimeout(() => {
-    window.location = link2.href;
-  }, 900);
-});
+<script src="animate.js">
 
-const callback = function (entries) {
-  entries.forEach((entry) => {
-    console.log(entry);
-
-    if (entry.isIntersecting) {
-      entry.target.classList.add("animate-fadeIn");
-    } else {
-      entry.target.classList.remove("animate-fadeIn");
-    }
-  });
-};
-
-const observer = new IntersectionObserver(callback);
-
-const targets = document.querySelectorAll(".js-show-on-scroll");
-targets.forEach(function (target) {
-  target.classList.add("opacity-0");
-  observer.observe(target);
-});
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">

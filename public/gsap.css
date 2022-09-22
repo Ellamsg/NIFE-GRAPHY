@@ -1,17 +1,6 @@
 
 
-
-
-body {
-  width: 100%;
-  height: 100vh;
-  background: #000;
-  color: #fff;
-  overflow: hidden;
-}
-
-
-
+/*special animation for the slide*/
 
 /* BG TEXT
 =========================== */
@@ -24,7 +13,7 @@ body {
 }
 
 .bg-text h1 {
-  font-size: 500px;
+  font-size: 300px;
   -webkit-text-stroke: 3px #444;
   text-transform: uppercase;
 }
@@ -32,11 +21,9 @@ body {
 /* SLIDER
 =========================== */
 .swiper-container {
-  width: 100%;
-  position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  padding: 50px 0;
+  
   
 }
 
@@ -118,27 +105,9 @@ body {
   overflow: hidden;
 }
 
-.slide-text h4 {
-  color: #fff;
-  font-size: 60px;
-  position: relative;
-}
 
 .slide-text h4 span {
   position: absolute;
 }
 
 
-
-
-
-@media screen and (max-width: 668px){
-    .swiper-slide {
-        width: 300px;
-        height: 500px;
-      }
-      .bg-text h1 {
-        font-size: 100px;
-       
-      }
-}

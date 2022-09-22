@@ -602,6 +602,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 180px;
 }
 
+.w-25 {
+  width: 300px;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -782,10 +786,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: transparent;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -853,7 +853,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .btn.slide .cover1 {
-  background-color: skyblue;
+  background-color: rgb(121, 39, 39);
   -webkit-animation: slide 0.3s ease-in-out forwards;
           animation: slide 0.3s ease-in-out forwards;
 }
@@ -882,6 +882,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
   height: 100%;
   flex-direction: column;
+}
+
+.slide-text h4 {
+  position: relative;
+  font-size: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity));
 }
 
 #navlinks {
@@ -974,7 +981,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .transition.slide .cover1 {
-  background-color: skyblue;
+  background-color: rgb(121, 39, 39);
   -webkit-animation: slide 0.3s ease-in-out forwards;
           animation: slide 0.3s ease-in-out forwards;
 }
@@ -1163,6 +1170,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-35 {
+    width: 700px;
   }
 
   .lg\:flex-grow {

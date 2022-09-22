@@ -20,6 +20,11 @@
 .gallery{
     @apply flex flex-col left-0 top-0 bottom-0 right-0 h-full;
 }
+
+.slide-text h4 {
+  @apply text-red text-xl relative;
+  
+}
 #navlinks {
     animation : translate .80s;
     
@@ -81,7 +86,7 @@
     z-index: 1000;
   }
   .transition.slide .cover1 {
-    background-color: skyblue;
+   background-color: rgb(121, 39, 39);
     animation: slide 0.3s ease-in-out forwards;
   }
   .transition.slide .cover2 {
