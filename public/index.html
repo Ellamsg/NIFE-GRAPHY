@@ -25,8 +25,8 @@
 
    <div style=" background-image:url(page/blue.jfif);" class=" bg-cover bg-center  object-none">
     <!--navigation bar-->
-    <nav id="home" class="flex header items-center z-10 lg:p-6 lg:pt-2 flex-wrap">
-      <a href="#" class="p-2 mr-4 inline-flex  items-center">
+    <nav id="home" class="flex header items-center fixed w-full   z-10 lg:p-6 lg:pt-2 flex-wrap">
+      <a href="#" class="p-2 mr-4  inline-flex  items-center">
         <span class="text-4xl yup  font-bold uppercase tracking-wide">N.A</span>
         
       </a>
@@ -39,7 +39,7 @@
             clip-rule="evenodd" />
         </svg>
       </button>
-      <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation">
+      <div class="hidden md:bg-transparent bg-black top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation">
         <div
           class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto text-sm w-full lg:items-center items-start flex flex-col lg:h-auto">
           <a href="#home"
@@ -52,17 +52,11 @@
           </a>
           <a href="#skills"
             class="lg:inline-flex lg:w-auto link w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-            <span>SKILLS</span>
+            <span>PORTRAITS</span>
           </a>
-          <a href="#work"
-            class="lg:inline-flex lg:w-auto link w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-            <span>WORKS</span>
-          </a>
+         
 
-          <a href="#contacts"
-            class="lg:inline-flex lg:w-auto w-full link px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-            <span>CONTACTS</span>
-          </a>
+         
         </div>
       </div>
     </nav>
@@ -70,37 +64,27 @@
     
 <!--main page-->
     
-    <main class=" lg:p-6 lg:pt-0 p-2">
-      <div class="text-center md:mt-0 mt-20 mb-20 lg:mb-5 md:mb-7 ">
-        <h1 class=" font-bold ">
+    <main class=" lg:p-6 lg:pt-18 md:pt-18 p-2">
+      <div class="fixed pt-7  md:pt-0">
+        <h1 class="mode  text-mono  font-extrabold">Contacts</h1>
+        <a href="about.html" class="mode pt-3 z-10">About</a>
+    
+      </div>
+      <div class=" md:mt-0 mt-20 mb-20 lg:mb-5   md:mb-7 ">
+        <h1 class=" font-bold text-center  ">
           PHOTOGRAPHY
         </h1>
-        <div class="lg:text-8xl md:text-7xl text-6xl font-bold">
+        <div class="lg:text-8xl md:text-7xl text-6xl text-center font-bold">
           <P>GRANDEX</P> 
         </div>
 
         <div  class="grid justify-center text-center relative  p-5 ">
           <img id="style" class="w-20  hover:animate-spin " src="page/rotate.PNG">
           <a href="works.html" class=" absolute text-xs top-7 z-10 left-0 right-0  link2 ">LIVE DEMO</a>
-      </div>
+       
+        </div>
+        <h1 class="fixed pt-3 text-right">contacts</h1>
     </main>
-
-  </div>
-
-  <div class="about-me grid pt-3 md:grid-cols-2 grid-cols-1 bg-black gallery1 lg:grid-cols-2 ">
-    <div class="about-image ">
-      <img class="w-full h-full js-show-on-scroll object-cover" src="page/manknown.jpg">
-    </div>
-
-    <div class="about-info md:p-6 p-2 lg:pt-7">
-
-      <h1 class="text-4xl font-bold js-show-on-scroll">ABOUT ME</h1>
-      <h1 class="font-bold">NIFE</h1>
-      <h1 class="lg:text-3xl text-2xl font-bold">Lorem ipsum dolor  asperiores <br> abeatae facere
-        dolor tenetur? Odit atque asperiores<br> id tempore
-        error p <br>quos est libero! Debitis at quis sint facere!</h1>
-
-    </div>
 
   </div>
 

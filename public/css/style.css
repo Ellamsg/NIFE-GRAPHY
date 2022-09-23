@@ -48,7 +48,7 @@
 
   
 
-
+/*
 .gallery{
     height: 100vh;
     width:100%;
@@ -61,6 +61,7 @@
        top: 0;
        z-index: -10;
    }
+   */
 
    
 @keyframes fadeIn {
@@ -77,7 +78,11 @@
     animation: fadeIn 2s ease-in forwards;
   }
 
+.mode{
 
+ writing-mode: vertical-lr;
+
+}
   .cover {
    
     height: 100vh;
@@ -98,6 +103,7 @@
     background-color: #094992;
     animation: slide 0.3s ease-in-out forwards;
     animation-delay: 0.6s;
+    
   }
   @keyframes slide {
     from {
