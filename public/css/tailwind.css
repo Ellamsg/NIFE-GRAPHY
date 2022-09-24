@@ -518,6 +518,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
+.bottom-2 {
+  bottom: 12px;
+}
+
+.bottom-3 {
+  bottom: 16px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .top-7 {
   top: 90px;
 }
@@ -530,36 +542,52 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0px;
 }
 
-.bottom-0 {
-  bottom: 0px;
+.left-2 {
+  left: 12px;
 }
 
-.bottom-2 {
-  bottom: 12px;
+.top-2 {
+  top: 12px;
+}
+
+.top-4 {
+  top: 24px;
+}
+
+.top-18 {
+  top: 170px;
+}
+
+.bottom-7 {
+  bottom: 90px;
 }
 
 .z-10 {
   z-index: 10;
 }
 
-.z-20 {
-  z-index: 20;
-}
-
-.m-3 {
-  margin: 16px;
-}
-
-.m-4 {
-  margin: 24px;
+.-z-10 {
+  z-index: -10;
 }
 
 .m-5 {
   margin: 32px;
 }
 
-.m-7 {
-  margin: 90px;
+.m-3 {
+  margin: 16px;
+}
+
+.m-2 {
+  margin: 12px;
+}
+
+.m-4 {
+  margin: 24px;
+}
+
+.m-1 {
+  margin: 8px;
 }
 
 .mr-4 {
@@ -576,6 +604,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-20 {
   margin-bottom: 180px;
+}
+
+.mt-18 {
+  margin-top: 170px;
+}
+
+.mt-7 {
+  margin-top: 90px;
+}
+
+.mt-2 {
+  margin-top: 12px;
+}
+
+.mt-5 {
+  margin-top: 32px;
 }
 
 .flex {
@@ -693,19 +737,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-red {
+.bg-green {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 182 255 / var(--tw-bg-opacity));
-}
-
-.bg-pink {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 73 219 / var(--tw-bg-opacity));
+  background-color: rgb(19 206 102 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -714,6 +748,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-center {
   background-position: center;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {
@@ -764,10 +803,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 12px;
 }
 
-.pt-2 {
-  padding-top: 12px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -784,16 +819,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: .875rem;
 }
 
-.text-6xl {
-  font-size: 4rem;
-}
-
-.text-xs {
-  font-size: .75rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
+}
+
+.text-8xl {
+  font-size: 7rem;
 }
 
 .text-5xl {
@@ -804,8 +835,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 5rem;
 }
 
-.text-8xl {
-  font-size: 7rem;
+.text-6xl {
+  font-size: 4rem;
+}
+
+.text-xs {
+  font-size: .75rem;
 }
 
 .text-3xl {
@@ -913,13 +948,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .btn.slide .cover1 {
-  background-color: rgb(121, 39, 39);
   -webkit-animation: slide 0.3s ease-in-out forwards;
           animation: slide 0.3s ease-in-out forwards;
 }
 
 .btn.slide .cover2 {
-  background-color: teal;
   -webkit-animation: slide 0.3s ease-in-out forwards;
           animation: slide 0.3s ease-in-out forwards;
   -webkit-animation-delay: 0.3s;
@@ -927,9 +960,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .btn.slide .cover3 {
-  background-color: #094992;
-  -webkit-animation: slide 0.3s ease-in-out forwards;
-          animation: slide 0.3s ease-in-out forwards;
+  -webkit-animation: slide2 0.3s ease-in-out forwards;
+          animation: slide2 0.3s ease-in-out forwards;
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
 }
@@ -1045,13 +1077,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .transition.slide .cover1 {
-  background-color: rgb(121, 39, 39);
   -webkit-animation: slide 0.3s ease-in-out forwards;
           animation: slide 0.3s ease-in-out forwards;
 }
 
 .transition.slide .cover2 {
-  background-color: teal;
   -webkit-animation: slide 0.3s ease-in-out forwards;
           animation: slide 0.3s ease-in-out forwards;
   -webkit-animation-delay: 0.3s;
@@ -1059,9 +1089,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .transition.slide .cover3 {
-  background-color: #094992;
-  -webkit-animation: slide 0.3s ease-in-out forwards;
-          animation: slide 0.3s ease-in-out forwards;
+  -webkit-animation: slide2 0.3s ease-in-out forwards;
+          animation: slide2 0.3s ease-in-out forwards;
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
 }
@@ -1079,6 +1108,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 @keyframes slide {
   from {
     left: -100vw;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes slide2 {
+  from {
+    top: -100vw;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slide2 {
+  from {
+    top: -100vw;
   }
 
   to {
@@ -1134,16 +1183,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 90px;
   }
 
+  .md\:h-20 {
+    height: 32rem;
+  }
+
   .md\:h-full {
     height: 100%;
   }
 
   .md\:h-19 {
     height: 26rem;
-  }
-
-  .md\:h-20 {
-    height: 32rem;
   }
 
   .md\:grid-cols-2 {
@@ -1166,32 +1215,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding: 48px;
   }
 
-  .md\:p-0 {
-    padding: 0px;
-  }
-
   .md\:p-5 {
     padding: 32px;
   }
 
-  .md\:p-4 {
-    padding: 24px;
+  .md\:p-0 {
+    padding: 0px;
   }
 
-  .md\:pt-18 {
-    padding-top: 170px;
+  .md\:pt-7 {
+    padding-top: 90px;
   }
 
   .md\:pt-0 {
     padding-top: 0px;
   }
 
-  .md\:pt-6 {
-    padding-top: 48px;
-  }
-
-  .md\:pt-7 {
-    padding-top: 90px;
+  .md\:pt-18 {
+    padding-top: 170px;
   }
 
   .md\:text-left {
@@ -1202,16 +1243,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     text-align: right;
   }
 
+  .md\:text-3xl {
+    font-size: 1.875rem;
+  }
+
   .md\:text-7xl {
     font-size: 5rem;
   }
 
   .md\:text-8xl {
     font-size: 7rem;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
   }
 }
 
@@ -1222,10 +1263,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:row-span-3 {
     grid-row: span 3 / span 3;
-  }
-
-  .lg\:m-7 {
-    margin: 90px;
   }
 
   .lg\:ml-auto {
@@ -1296,24 +1333,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 12px;
   }
 
-  .lg\:pt-18 {
-    padding-top: 170px;
-  }
-
   .lg\:pt-7 {
     padding-top: 90px;
+  }
+
+  .lg\:pt-18 {
+    padding-top: 170px;
   }
 
   .lg\:text-left {
     text-align: left;
   }
 
-  .lg\:text-8xl {
-    font-size: 7rem;
-  }
-
   .lg\:text-3xl {
     font-size: 1.875rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 7rem;
   }
 }
 

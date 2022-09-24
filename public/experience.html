@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Cormorant+Garamond:wght@300&family=Monoton&family=Montserrat+Alternates:wght@100&family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:wght@100&family=Teko:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/tailwind.css" />
+    <script
+      src="https://kit.fontawesome.com/3b9e2cc044.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:800"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <title>NIFEMI portfolio</title>
+  </head>
+
+  <body class="bg-black text-white w-full">
+    <div
+      class="gallery transition overflow-x-hidden relative scroll-smooth overflow-auto"
+    >
+      <div class="cover fixed top-0 cover1"></div>
+      <div class="cover fixed top-0 cover2"></div>
+      <div class="cover fixed top-0 cover3"></div>
+
+      <div>
+        <!--navigation bar-->
+        <nav
+          id="home"
+          class="flex header items-center fixed w-full z-10 lg:p-6 lg:pt-2 flex-wrap"
+        >
+          <a href="#" class="p-2 mr-4 inline-flex items-center">
+            <span class="text-4xl yup font-bold uppercase tracking-wide"
+              >N.A</span
+            >
+          </a>
+          <button
+            class="link inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
+            data-target="#navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-white"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <div
+            class="hidden bg-black top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
+            id="navigation"
+          >
+            <div
+              class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto text-sm w-full lg:items-center items-start flex flex-col lg:h-auto"
+            >
+              <a
+                href="index.html"
+                class="lg:inline-flex link lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
+              >
+                <span>HOME</span>
+              </a>
+              <a
+                href="#about"
+                class="lg:inline-flex link lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
+              >
+                <span>ABOUT</span>
+              </a>
+              <a
+                href="#skills"
+                class="lg:inline-flex lg:w-auto link w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
+              >
+                <span>PORTRAITS</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+
+        <!--main page-->
+
+        <main class="lg:p-6 p-3 lg:pt-7 md:pt-7 pt-7">
+          <div class="fixed top-7">
+            <a href="contacts.html">
+              <h1 class="mode text-mono font-extrabold">Contacts</h1>
+            </a>
+            <a href="experience.html" class="mode pt-3">experienec</a>
+          </div>
+          <a
+            href="about.html"
+            class="fixed z-10 left-2 bottom-2 pt-3 text-right"
+            >about</a
+          >
+        </main>
+      </div>
+
+      <div class="grid md:grid-cols-3 grid-cols-1 p-3 gap-3 lg:p-2">
+        <div class="image2 md:col-span-3 lg:col-span-2 ...">
+          <h1 class="text-5xl font-bold md:text-8xl js-show-on-scroll">
+            EXPERIENCE
+          </h1>
+        </div>
+
+        <div class="relative lg:row-span-3 md:row-span-2 ...">
+          <img
+            class="lg:h-full object-cover h-16 md:h-full w-full -z-10"
+            src="page/pink.jpg"
+          />
+          <!--flex container for the text-->
+          <div class="flex flex-shrink bg-black w-full absolute bottom-0">
+            <h1
+              data-target="56"
+              class="text-7xl md:text-right lg:text-left hover:text-red font-bold"
+            >
+              01
+            </h1>
+            <div class="p-5 pl-2 js-show-on-scroll">
+              <h1 class="font-bold">MAN & PINK</h1>
+              <p>2021.</p>
+            </div>
+          </div>
+          <!--end of text container insider the container-->
+        </div>
+
+        <div
+          class="image2 md:col-span-2 md:row-span-2 lg:p-0 md:p-0 p-4 ... bg-black"
+        >
+          <img
+            class="object-cover js-show-on-scroll lg:w-full md:h-19 w-full"
+            src="page/bandit.jpg"
+          />
+
+          <!--flex container for the text-->
+          <div class="flex flex-shrink">
+            <h1
+              class="text-7xl md:text-right lg:text-left hover:text-red font-bold"
+            >
+              02
+            </h1>
+            <div class="p-5">
+              <h1 class="font-bold">BOY BLACK & WHITE</h1>
+              <p>2021, commercial photography</p>
+            </div>
+          </div>
+          <!--end of text container insider the container-->
+        </div>
+      </div>
+
+      <div class="grid bg-black md:grid-cols-2 md:gap-6 p-3 md:p-5">
+        <div class="image1 b">
+          <img
+            class="h-10 md:h-19 w-full object-cover"
+            src="page/nife-dark.jpg"
+          />
+          <!--flex container for the text-->
+          <div class="flex flex-shrink">
+            <h1
+              class="text-7xl md:text-right lg:text-left hover:text-red font-bold"
+            >
+              03
+            </h1>
+            <div class="p-5 js-show-on-scroll">
+              <h1 class="font-bold">BOY BLACK & WHITE</h1>
+              <p>2021, photography</p>
+            </div>
+          </div>
+          <!--end of text container insider the container-->
+        </div>
+
+        <div class="image2 md:pt-18">
+          <img
+            class="h-25 w-full object-cover js-show-on-scroll"
+            src="page/girlsad.jfif"
+          />
+          <!--flex container for the text-->
+          <div class="flex flex-shrink">
+            <h1
+              class="text-7xl md:text-right lg:text-left hover:text-red font-bold"
+            >
+              04
+            </h1>
+            <div class="p-5">
+              <h1 class="font-bold">BOY BLACK & WHITE</h1>
+              <p>2021, photography</p>
+            </div>
+          </div>
+          <!--end of text container insider the container-->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </body>
+</html>
