@@ -1,8 +1,12 @@
 
+
+
 gsap.from('.header',{duration:1, y:'-100%',ease:'bounce'})
 gsap.from('.link',{duration:2,opacity:0, stagger:.4})
 gsap.from('.right',{duration:1,delay:.5,x:'100%'})
 gsap.from('.left',{duration:1,delay:.5,x:'-100%'})
+
+
 
 
 //hamburger toggle
@@ -17,6 +21,9 @@ $(document).ready(function () {
     });
   });
 });
+
+
+
 
 
 

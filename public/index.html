@@ -17,17 +17,19 @@
 
 <body class="bg-black  text-white w-full">
 
-  <div class="gallery transition overflow-x-hidden relative scroll-smooth  overflow-auto">
+  <div id="bg-change" style=" background-image:url(page/blue.jfif);"  class="gallery bg-cover bg-center  object-none transition overflow-x-hidden relative scroll-smooth  overflow-auto">
+   <!--page transition animation-->  
 
-    <div style=" background-image:url(page/blue.jfif);"
-     class="cover bg-cover object-contain fixed top-0 cover1">
+    <div style=" background-image:url(page/blue.jfif);"  class="cover bg-center  object-none fixed top-0 cover1">
     </div>
-    <div style=" background-image:url(page/girlsad.jfif);"
-      class="cover bg-cover object-contain fixed top-0 cover2 "></div>
-    <div style=" background-image:url(page/bandit.jpg);"
-      class="cover bg-cover object-contain fixed top-0 cover3 "></div>
+    <div style=" background-image:url(page/girlsad.jfif);" class="cover bg-center object-none fixed top-0 cover2 ">
+    </div>
+    <div style=" background-image:url(page/bandit.jpg);" class="cover bg-contain   object-cover fixed top-0 cover3 ">
+    </div>
+  <!--end of page transition animation--> 
 
-    <div style=" background-image:url(page/blue.jfif);" class=" bg-cover bg-center  object-none">
+
+    <div  class=" ">
       <!--navigation bar-->
       <nav id="home" class="flex header items-center fixed w-full  z-10 lg:p-6 lg:pt-2 flex-wrap">
         <a href="#" class="p-2 mr-4  inline-flex  items-center">
@@ -45,7 +47,7 @@
         </button>
         <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation">
           <div
-            class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto text-sm w-full lg:items-center items-start flex flex-col lg:h-auto">
+            class="lg:inline-flex md:bg-transparent bg-black lg:flex-row text-center lg:ml-auto lg:w-auto text-sm w-full lg:items-center items-start flex flex-col lg:h-auto">
             <a href="#home"
               class="lg:inline-flex link lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
               <span>HOME</span>
@@ -54,19 +56,13 @@
               class="lg:inline-flex link lg:w-auto w-full  px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
               <span>ABOUT</span>
             </a>
-            <a href="#skills"
-              class="lg:inline-flex lg:w-auto link w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-              <span>SKILLS</span>
-            </a>
-            <a href="#work"
+           
+            <a href="works.html"
               class="lg:inline-flex lg:w-auto link w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
               <span>WORKS</span>
             </a>
 
-            <a href="#contacts"
-              class="lg:inline-flex lg:w-auto w-full link px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-              <span>CONTACTS</span>
-            </a>
+            
           </div>
         </div>
       </nav>
@@ -74,15 +70,24 @@
 
       <!--main page-->
       <main class=" lg:p-6 lg:pt-18 md:pt-18 p-2">
-        <div class="fixed top-7 z-10 ">
+        <div class="fixed top-7 md:left-6 z-10 ">
           <a href="contacts.html">
             <h1 class="mode text-mono z-10 font-extrabold">Contacts</h1>
           </a>
           <a href="experience.html" class="mode pt-3 z-10">experienec</a>
-
+ 
         </div>
-        <a href="about.html" class="fixed left-2 z-10 bottom-2 pt-3 text-right">about</a>
+           <!--fixed onclick  texts-->  
+        <a href="about.html" class="fixed md:left-6 z-10 bottom-2 pt-3 text-right">about</a>
+        <div  class="mode1 z-10 font-bold fixed md:right-6 right-5 bottom-2">
+        <button id="click1" ><p class="mode1 pt-4 hover:text-red">01</p></button>
+        <button id="click2" ><p class="mode1 pt-4 hover:text-red">02</p></button>
+        <button id="click3" ><p class="mode1 pt-4 hover:text-red">03</p></button>
+        <button id="clcik4" ><p class="mode1 pt-4  hover:text-red">04</p></button>
+        <button id="click5" ><p class="mode1 pt-4  hover:text-red">05</p></button>
+      </div>
 
+ <!--about content-->
         <div class=" md:mt-0 mt-20 mb-20 lg:mb-5   md:mb-7 ">
           <h1 class=" font-bold text-center  ">
             PHOTOGRAPHY
@@ -92,10 +97,10 @@
           </div>
 
           <div class="grid justify-center text-center relative  p-5 ">
-            <img id="style" class="w-20  hover:animate-spin " src="page/rotate.PNG">
-            <a href="works.html" class=" absolute text-xs top-7 z-10 left-0 right-0  link2 ">LIVE DEMO</a>
-        </div>
-          <a href="about.html" class="fixed bottom-3 pt-3 text-right">about</a>
+            <img id="style"  class="w-20 bg-red hover:animate-spin " src="page/rotate.PNG">
+            <a href="works.html" class=" absolute text-xs top-7  left-0 right-0  link2 ">LIVE DEMO</a>
+          </div>
+      
       </main>
 
     </div>
@@ -109,6 +114,7 @@
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="index.js"></script>
+  <script src="animate.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </body>
 

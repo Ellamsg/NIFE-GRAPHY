@@ -28,3 +28,25 @@ targets.forEach(function (target) {
   target.classList.add("opacity-0");
   observer.observe(target);
 });
+
+
+//numbers onclick background changer
+let bgchange = document.getElementById("bg-change")
+let num1 = document.getElementById("click1")
+let num2 = document.getElementById("click2")
+let  num3 = document.getElementById("click3")
+let  num4 = document.getElementById("click4")
+
+num1.addEventListener("click",()=>{
+  bgchange.style.backgroundImage = "url(page/bandit.jpg)"
+  
+})
+num2.addEventListener("click",()=>{
+  bgchange.style.backgroundImage = "url(page/girlsad.jfif)"
+})
+num3.addEventListener("click",()=>{
+  bgchange.style.backgroundImage = "url(page/pink.jpg)"
+})
+num4.addEventListener("click",()=>{
+  bgchange.style.backgroundImage = "url(page/bandit.jpg)"
+})

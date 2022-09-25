@@ -45,24 +45,6 @@
     }
 }
 
-
-  
-
-/*
-.gallery{
-    height: 100vh;
-    width:100%;
-   }
-   .gallery .gallery1{
-       height:100% ;
-       width: 100%;
-       object-fit: cover;
-       position: sticky;
-       top: 0;
-       z-index: -10;
-   }
-   */
-
    
 @keyframes fadeIn {
     0% {
@@ -83,6 +65,10 @@
  writing-mode: vertical-lr;
 
 }
+.mode1{
+text-orientation: mixed; writing-mode: vertical-lr;
+ 
+ }
   .cover {
    
     height: 100vh;
@@ -93,6 +79,7 @@
   .transition.slide .cover1 {
 
     animation: slide 0.3s ease-in-out forwards;
+    animation-delay: 0.3s;
   }
   .transition.slide .cover2 {
     

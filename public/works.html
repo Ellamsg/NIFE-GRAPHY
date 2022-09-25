@@ -1,196 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Tokyo Street Gallery</title>
-    <!-- swiper css -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css"
-    />
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- css -->
-    <link rel="stylesheet" href="gsap.css" />
-    <link rel="stylesheet" href="./css/tailwind.css" />
-  </head>
 
-  <body class="bg-black">
-    <div
-      class="transition overflow-x-hidden relative scroll-smooth overflow-auto"
-    >
-      <div class="cover fixed top-0 cover1"></div>
-      <div class="cover fixed top-0 cover2"></div>
-      <div class="cover fixed top-0 cover3"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tokyo Street Gallery</title>
+  <!-- swiper css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="gsap.css">
+  <link rel="stylesheet" href="./css/tailwind.css">
+</head>
 
-      <div class="image-bg object-none">
-        <nav
-          id="home"
-          class="flex header bg-black items-center z-10 fixed w-full text-white lg:p-6 flex-wrap"
-        >
-          <a href="#" class="p-2 mr-4 inline-flex items-center">
-            <span class="text-3xl yup font-bold uppercase tracking-wide"
-              >NIFEMI</span
-            >
-          </a>
-          <button
-            class="link inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
-            data-target="#navigation"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5 text-white"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </button>
-          <div
-            class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
-            id="navigation"
-          >
-            <div
-              class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto"
-            >
-              <a
-                href="index.html"
-                class="lg:inline-flex link link2 lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>Home1</span>
-              </a>
-              <a
-                href="#about"
-                class="lg:inline-flex link lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>About</span>
-              </a>
-              <a
-                href="#skills"
-                class="lg:inline-flex lg:w-auto link w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>Skills</span>
-              </a>
-              <a
-                href="#work"
-                class="lg:inline-flex lg:w-auto link w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>Works</span>
-              </a>
+<body class="bg-black">
+  <div class=" transition overflow-x-hidden relative scroll-smooth overflow-auto">
+    <div class="cover fixed top-0 cover1"></div>
+    <div class="cover fixed top-0 cover2"></div>
+    <div class="cover fixed top-0 cover3"></div>
 
-              <a
-                href="#contacts"
-                class="lg:inline-flex lg:w-auto w-full link px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>Contact</span>
-              </a>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
 
-    <div class="wrapper">
-      <div class="fixed top-7 z-10">
-        <a href="contacts.html">
-          <h1 class="mode text-mono font-extrabold">Contacts</h1>
+    <div class="image-bg object-none">
+      <nav id="home" class="flex header items-center fixed w-full  z-10 lg:p-6 lg:pt-2 flex-wrap">
+        <a href="#" class="p-2 mr-4  inline-flex  items-center">
+          <span class="text-4xl yup text-white font-bold uppercase tracking-wide">N.A</span>
+
         </a>
-        <a href="experience.html" class="mode pt-3 text-white z-10"
-          >experienec</a
-        >
-      </div>
-      <a
-        href="about.html"
-        class="fixed text-white left-2 z-10 bottom-2 pt-3 text-right"
-        >about</a
-      >
+        <button
+          class="link inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto text-white outline-none nav-toggler"
+          data-target="#navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+              clip-rule="evenodd" />
+          </svg>
+        </button>
+        <div class="hidden  bg-black top-navbar  w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation">
+          <div
+            class="lg:inline-flex z-10 lg:flex-row text-white text-center lg:ml-auto lg:w-auto text-sm w-full lg:items-center items-start flex flex-col lg:h-auto">
+            <a href="index.html"
+              class="lg:inline-flex link lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
+              <span>HOME</span>
+            </a>
+            <a href="#about"
+              class="lg:inline-flex link lg:w-auto w-full  px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
+              <span>ABOUT</span>
+            </a>
+            <a href="#skills"
+              class="lg:inline-flex lg:w-auto link w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
+              <span>PORTRAITS</span>
+            </a>
 
-      <!-- BG TEXT
-    =============================== -->
-      <div class="bg-text absolute">
-        <h1 class="text-center text-transparent">NIFEMI-AYOOLA</h1>
-      </div>
 
-      <!-- SLIDER
-    =============================== -->
-      <div class="swiper-container mt-7 w-full absolute">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide w-25 lg:w-35">
-            <div class="slide-number">
-              <p><span>001</span></p>
-            </div>
-            <div class="slide-text">
-              <h4><span>tokyotr3</span></h4>
-            </div>
-            <div class="slide-img w-full h-full object-contain bg-cover"></div>
-          </div>
 
-          <div class="swiper-slide w-25 lg:w-35">
-            <div class="slide-number">
-              <p><span>002</span></p>
-            </div>
-            <div class="slide-text">
-              <h4><span>tokyogu4</span></h4>
-            </div>
-            <div class="slide-img w-full h-full object-contain bg-cover"></div>
-          </div>
-
-          <div class="swiper-slide w-25 lg:w-35">
-            <div class="slide-number">
-              <p><span>003</span></p>
-            </div>
-            <div class="slide-text">
-              <h4><span>tokyotv2</span></h4>
-            </div>
-            <div class="slide-img w-full h-full object-contain bg-cover"></div>
-          </div>
-
-          <div class="swiper-slide w-25 lg:w-35">
-            <div class="slide-number">
-              <p><span>004</span></p>
-            </div>
-            <div class="slide-text">
-              <h4><span>tokyort7</span></h4>
-            </div>
-            <div class="slide-img w-full h-full object-contain bg-cover"></div>
-          </div>
-
-          <div class="swiper-slide w-25 lg:w-35">
-            <div class="slide-number">
-              <p><span>005</span></p>
-            </div>
-            <div class="slide-text">
-              <h4><span>tokyogr8</span></h4>
-            </div>
-            <div class="slide-img w-full h-full object-contain bg-cover"></div>
           </div>
         </div>
+      </nav>
+      </div>
+  </div>
+
+  <div class="wrapper ">
+
+    <div class="fixed top-7 z-10 md:left-6 ">
+      <a href="contacts.html">
+        <h1 class="mode text-mono font-extrabold">Contacts</h1>
+      </a>
+        <a href="experience.html" class="mode pt-3 text-white z-10">experienec</a>
+    
+    </div>
+    <a href="about.html" class="fixed text-white md:left-6 z-10 bottom-2 pt-3 text-right">about</a>
+
+    <!-- BG TEXT
+    =============================== -->
+    <div class="bg-text absolute">
+      <h1 class="text-center text-transparent">NIFEMI-AYOOLA</h1>
+    </div>
+
+    <!-- SLIDER
+    =============================== -->
+    <div class="swiper-container mt-7 w-full  absolute">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide w-25 lg:w-35">
+          <div class="slide-number">
+            <p><span>001</span></p>
+          </div>
+          <div class="slide-text">
+            <h4><span>tokyotr3</span></h4>
+          </div>
+          <div class="slide-img w-full h-full object-contain bg-cover"></div>
+        </div>
+
+        <div class="swiper-slide w-25 lg:w-35">
+          <div class="slide-number">
+            <p><span>002</span></p>
+          </div>
+          <div class="slide-text">
+            <h4><span>tokyogu4</span></h4>
+          </div>
+          <div class="slide-img w-full h-full object-contain bg-cover"></div>
+        </div>
+
+        <div class="swiper-slide w-25 lg:w-35">
+          <div class="slide-number">
+            <p><span>003</span></p>
+          </div>
+          <div class="slide-text">
+            <h4><span>tokyotv2</span></h4>
+          </div>
+          <div class="slide-img w-full h-full object-contain bg-cover"></div>
+        </div>
+
+        <div class="swiper-slide w-25 lg:w-35">
+          <div class="slide-number">
+            <p><span>004</span></p>
+          </div>
+          <div class="slide-text">
+            <h4><span>tokyort7</span></h4>
+          </div>
+          <div class="slide-img w-full h-full object-contain bg-cover"></div>
+        </div>
+
+        <div class="swiper-slide w-25 lg:w-35">
+          <div class="slide-number">
+            <p><span>005</span></p>
+          </div>
+          <div class="slide-text">
+            <h4><span>tokyogr8</span></h4>
+          </div>
+          <div class="slide-img  w-full h-full object-contain bg-cover"></div>
+        </div>
+
       </div>
     </div>
 
-    <!-- jquery -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <!-- gsap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <!-- swiper js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
-    <!-- custom js -->
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
 
-    <script src="index.js"></script>
-  </body>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <!-- swiper js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  <!-- custom js -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+  
+  <script src="index.js"></script>
+ 
+ 
+
+</body>
+
 </html>
