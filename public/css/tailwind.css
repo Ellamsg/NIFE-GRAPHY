@@ -546,6 +546,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 16px;
 }
 
+.right-6 {
+  right: 48px;
+}
+
+.right-4 {
+  right: 24px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -580,6 +588,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-7 {
   margin-top: 90px;
+}
+
+.mt-3 {
+  margin-top: 16px;
+}
+
+.mt-2 {
+  margin-top: 12px;
 }
 
 .flex {
@@ -634,6 +650,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 300px;
 }
 
+.w-18 {
+  width: 170px;
+}
+
+.w-30 {
+  width: 500px;
+}
+
+.w-2 {
+  width: 12px;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -648,8 +688,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -666,6 +714,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -688,14 +740,45 @@ Ensure the default browser behavior of the `hidden` attribute.
   scroll-behavior: smooth;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-wind {
+  --tw-border-opacity: 1;
+  border-color: rgb(39 39 42 / var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-red {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-wind {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+}
+
+.bg-gray-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 52 68 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -708,10 +791,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-center {
   background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .object-contain {
@@ -771,6 +850,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 24px;
 }
 
+.pt-5 {
+  padding-top: 32px;
+}
+
+.pl-1 {
+  padding-left: 8px;
+}
+
+.pt-2 {
+  padding-top: 12px;
+}
+
+.pt-6 {
+  padding-top: 48px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -811,6 +906,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: .75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -845,6 +944,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: transparent;
 }
 
+.text-red {
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity));
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -854,12 +958,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-all {
-  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -1168,6 +1266,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 26rem;
   }
 
+  .md\:w-25 {
+    width: 300px;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1178,10 +1280,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:gap-6 {
     gap: 48px;
-  }
-
-  .md\:bg-transparent {
-    background-color: transparent;
   }
 
   .md\:p-6 {
