@@ -7,4 +7,4 @@ i used tailwind and pure css in the making
  had a problem fixing the nav bar but i found  my way through.
     
 #LIVE SITE
-https://http://nife-graphy1.netlify.app/
+https://http://nife-graphy1.netlify.app
